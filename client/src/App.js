@@ -9,8 +9,8 @@ function App() {
       <BrowserRouter>  
     <Routes>
     <Route path='/' element={<FirstLanding/>} />
-    <Route path='/landing' element={<FirstLanding/>} />
     <Route path='/home' element={<Home />} />
+      <Route path='*' element={<>No match</>}></Route>
     </Routes>
   
       </BrowserRouter>
