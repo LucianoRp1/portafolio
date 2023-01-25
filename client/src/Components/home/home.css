@@ -19,3 +19,18 @@ padding: 20px;
 		justify-content: center;
 padding: 20px;
 }
+
+.responsiveNav{
+	
+}
+@media(max-width: 650px) {
+    .responsiveNav  {
+    	position: relative;
+      display: flex;
+       height: max-content;
+       width: max-content;
+       justify-content: center;
+ margin: 50px;
+    }
+
+}
