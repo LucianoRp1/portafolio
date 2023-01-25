@@ -21,7 +21,7 @@ const FirstLanding = props => {
   <div className="hero-one" data-aos="fade-right"></div>
   <div className="hero-two" data-aos="fade-left"></div>
   <h1  className="header-title"><span className="header-primary" data-aos="flip-down">Hi !</span><span className="header-sub" data-aos="flip-up">Welcome To My Portfolio</span> <div className='containerbtn'>
-   < Link className='linkLanding'  to = '/home' > < button data-aos="flip-down" className = 'btnPress' >  <span></span>
+   < Link className='linkLanding'  to = '/home' > < button className = 'btnPress' >  <span></span>
   <span></span>
   <span></span>
   <span></span> Press click< /button> < /Link>
