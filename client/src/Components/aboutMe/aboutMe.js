@@ -14,7 +14,7 @@ const AboutMe = () => {
         <div className="card" >
         <div className='boxAbout'>
             <div className='cardContainer'>
-       <p>Hola   I'm</p>
+       <p>Hello   I'm</p>
   <section className="animation">
     <div className="first"><div>Luciano Rodriguez</div></div>
     <div className="second"><div>Front-End Developer</div></div>
