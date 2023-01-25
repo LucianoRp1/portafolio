@@ -25,9 +25,9 @@ const Proyect = () => {
         </div>
         </div>
         <div  className='descriptionProyect' data-aos="zoom-in">
-        <h1 className='h1Proyect'>Project Description:</h1><p>I come to share with you my Henry's individual project in which I have promoted, it is a Raw type page using <a className='linkApi' href='https://rawg.io/apidocs' target='-blank'>https://rawg.io/apidocs </a>(includes music 🎧) . Used technology: <br/>
+        <h1 className='h1Proyect'>Project Description:</h1><p className='pProject'>I come to share with you my Henry's individual project in which I have promoted, it is a Raw type page using <a className='linkApi' href='https://rawg.io/apidocs' target='-blank'>https://rawg.io/apidocs </a>(includes music 🎧) . Used technology: <br/>
 🔹 Javascript <br/>
-🔹 Front-End: Html, React, Redux, CSS puro.<br/>
+🔹 Front-End: Html, React, Redux, CSS .<br/>
 🔹 Back-End: Node.js con Express.<br/>
 🔹 Database: PostgreSQL y Sequelize.<br/>
 
