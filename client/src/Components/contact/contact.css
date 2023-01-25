@@ -88,3 +88,16 @@ transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
     transform: scale(1.2);
 
 }
+
+@media(max-width: 650px){
+    .btn{
+/*        margin: 25px;*/
+      border-radius: 20px;
+      padding: 10px;
+    }
+.container{
+    display: inline-table;
+    margin: 0;
+    height: max-content;
+}
+}
