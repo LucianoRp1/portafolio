@@ -49,3 +49,27 @@ h3{
     display: flex;
     font-size: 15px;
 }
+
+@media(max-width: 650px){
+    .card4{
+        display: flex;
+         height: max-content ;
+    }
+    .card5{
+
+         height: max-content ;
+
+
+    }
+    .skills{
+        display: flex;
+
+        text-align: center;
+    }
+    .imgContainer{
+         height: max-content ;
+        display: inline;
+
+
+    }
+}
