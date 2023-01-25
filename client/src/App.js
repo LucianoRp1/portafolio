@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route,  Routes} from "react-router-dom";
 import './App.css';
-//import Home from './Components/home/home.js'
+import Home from './Components/home/home.js'
 import FirstLanding from './Components/firstLanding/firstLanding.js'
 
 function App() {
