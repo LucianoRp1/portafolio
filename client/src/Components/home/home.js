@@ -22,8 +22,8 @@ const Home = () => {
 	if(loading) return <LandingPage />
 	return (
 		<div id='home'> <br />
-			<Navbar/>
-			<br />
+			<div className='responsiveNav'><Navbar/>
+			</div><br />
 		<br />
 		<br />
 		<div id='aboutMe' className='aboutMeHome'> <br />
