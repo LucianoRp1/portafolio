@@ -76,3 +76,43 @@
     text-align: center;
     color: white;
 }
+
+@media(max-width: 650px) {
+    .card  {
+      position: relative;
+      display: flex;
+       height: max-content;
+    }
+    .boxAbout{
+      position: relative;
+      display: flex;
+       height: max-content;
+       width: max-content;
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+    .cardContainer{
+        position: relative;
+      display: inline-block;
+       height: max-content;
+     
+        padding: 20px;
+    }
+
+.animation{
+ margin: 0;
+     width: max-content;
+     display: inline-block;
+}
+
+
+    .animation div:first-child {
+     height: max-content;
+     width: max-content;
+     padding: 0;
+    }
+    text-animation{
+      width: max-content;
+    }
+
+}
