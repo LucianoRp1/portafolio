@@ -10,7 +10,7 @@ function App() {
     <Routes>
     <Route path='/' index element={<FirstLanding/>} />
 <Route path='/home' element={<Home />} />
-      <Route path='*' element={<Home />}></Route>
+       <Route path='*' element={<>No match</>}></Route>
     </Routes>
   
       </BrowserRouter>
