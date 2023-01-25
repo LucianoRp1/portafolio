@@ -157,3 +157,18 @@ span:nth-child(2) {
 /*  margin-right: -20%;*/
   font-size: 50px;
 }
+
+@media(max-width: 850px) {
+    .header-title  {
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+
+    .containerbtn {
+        height: max-content;
+        display: flex;
+        justify-content: center;
+     margin-left: 15%;
+    }
+
+}
