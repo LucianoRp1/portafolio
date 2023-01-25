@@ -44,19 +44,3 @@ ul {
   list-style: none;
 }
 
-@media(max-width: 650px) {
-    .containerNav  {
-      display: flex;
-       height: max-content;
-       justify-content: center;
-       width: max-content;
-       padding: 10px;
-    }
-    .ulNav{
-      display: flex;
-      height: max-content;
-      width: max-content;
-      justify-content: center;
-      padding: 10px;
-    }
-}
