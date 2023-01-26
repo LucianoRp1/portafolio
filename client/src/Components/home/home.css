@@ -21,7 +21,11 @@ padding: 20px;
 }
 
 .responsiveNav{
-	
+	position: sticky;
+	bottom: 0;
+	top: 5px; 
+	z-index: 1;
+	background: #1D1E22;
 }
 @media(max-width: 650px) {
     .responsiveNav  {
