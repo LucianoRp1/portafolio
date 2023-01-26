@@ -20,7 +20,7 @@ const Navbar = () => {
 		<div>
 		<nav className='containerNav'>
 		<ul className='ulNav'>
-		<li data-aos="flip-left"><a href='#home' className='btnNav' ><FaHome data-aos="flip-left" /></a></li>
+		<li data-aos="flip-left"><a href='#home' className='btnNav' ><FaHome /></a></li>
 		<li data-aos="flip-left"><a href='#aboutMe' className='btnNav'><FaUser  /></a></li>
 		<li data-aos="flip-left"><a href='#project' className='btnNav'><FaProjectDiagram  /></a></li>
 		<li data-aos="flip-left"><a href='#skills' className='btnNav'><FaAward  /></a></li>
