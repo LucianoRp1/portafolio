@@ -2,10 +2,14 @@
     padding: 20px;
  width: 90%;
  height: 254px;
- border-radius: 30px;
- background-color: #1D1E22;
+/* border-radius: 30px;*/
+border-radius: 40px 0 40px 0;
+ /*background-color: #1D1E22;
  box-shadow: 15px 15px 30px rgb(25, 25, 25),
-             -15px -15px 30px rgb(60, 60, 60);
+             -15px -15px 30px rgb(60, 60, 60);*/
+               background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
 }
 
 
@@ -14,9 +18,9 @@
     width: 100%;
  height: 90%;
  border-radius: 30px;
-  background-color: #1D1E22;
-/* background: #212121;*/
- box-shadow: 0 0 10px #ae00ff, 0 0 25px #001eff, 0 0 50px #ae00ff;
+background: #e0e0e0;
+box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
 }
 
 /*.skills:focus,
@@ -24,7 +28,7 @@
   box-shadow: 0 0 10px #ae00ff, 0 0 25px #001eff, 0 0 50px #ae00ff
 }*/
 .skills{
-    color: white;
+    color: black;
 display: flex;
 justify-content: center;
 }
@@ -35,13 +39,20 @@ justify-content: center;
 }
 img{
     width: 50px;
+    cursor: pointer;
+}
+.skillsTitle:hover{
+   scale: 1.2; 
+    transition: 2s;
+    z-index: 2;
 }
 .skillsTitle{
-    color: white;
+    color: black;
         display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+       transition: 2s;
 }
 h3{
     left: 1%;
@@ -49,6 +60,7 @@ h3{
     display: flex;
     font-size: 15px;
 }
+
 
 @media(max-width: 650px){
     .card4{
